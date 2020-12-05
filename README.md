@@ -14,7 +14,7 @@ A fully automated voice-based solution that delivers the latest news. The app is
 
 ## Screenshots
 
-![Screenshot 2020-12-05 182228](https://user-images.githubusercontent.com/56535991/101243621-7e785680-3727-11eb-9907-377800244d79.png)
+![image](https://user-images.githubusercontent.com/56535991/101243981-c13b2e00-3729-11eb-9e76-4dd87bc63178.png)
 ![Screenshot 2020-12-05 182504](https://user-images.githubusercontent.com/56535991/101243632-8c2ddc00-3727-11eb-9c09-26b7203d22a8.png)
 ![Screenshot 2020-12-05 182429](https://user-images.githubusercontent.com/56535991/101243640-994acb00-3727-11eb-984b-df303fcce8e4.png)
 
@@ -24,8 +24,7 @@ A fully automated voice-based solution that delivers the latest news. The app is
 **Built with**
 - [React](https://reactjs.org/docs/getting-started.html)
 - [Node](https://nodejs.org/dist/latest-v14.x/docs/api/)
-- [Express](https://expressjs.com/)
-- [Socket.io](https://socket.io/docs/v3)
+- [Alan AI](https://alan.app/)
 - [vs-code](https://code.visualstudio.com/docs)
 
 ## Installation
@@ -34,37 +33,40 @@ A fully automated voice-based solution that delivers the latest news. The app is
 
 Fork the project & fire up a terminal to enter the following command: 
 ```
-$ git clone git@github.com:<username>/chatbox-app.git
+$ git clone git@github.com:<username>/IntelliNews.git
 ```
 cd into the project folder using:
 ```
-$ cd ./chatbox-app/
+$ cd ./IntelliNews/
 ```
 To open the project in Visual Studio Code, enter:
 ```
 $ code .
 ```
-Open another tab in your terminal and cd into the client directory on tab and into the server directory on another, & run the following command on both:
+In the terminal, enter the following command:
 ```
 $ npm i
 ```
 This will install the required node modules to get you started.
 
-Finally, run this command on both tabs to start the respective servers.
+Before you start the project in development mode, register on [Alan](https://alan.app/) and generate your own API key. To connect your app with Alan servers, replace the alanKey variable with your own key in the App.jsx file in the src folder. Also, copy and paste the contents of alanBackend.txt file in the src folder into your own ALAN development environment on their site.
+
+To start the project on localhost:3000, run:
 ```
 $ npm start
 ```
 ## How to use?
 
-- Enter your name as well as enter the name of the room you want to join/create.
-- Click/Touch the Join button.
-- Share you room's name with you friends and ask them to join.
-- Type in your messages and hit 'Enter'.
-- The app provides support for classic emojis. 
+- Click/tap on the Alan button to enable it.
+- Try saying anything from the cards shown on your screen.
+- You can also ask Alan to read you the headlines.
+- To open an article say "Open Article number" and specify the article number.
+- Ask Alan to go back to the homescreen.
+- You can also have a casual conversation with Alan.
 
 ## Credits
 
-This web application is inspired by [JavaScript Mastery](https://github.com/adrianhajdin/project_chat_application)
+This web application is inspired by [JavaScript Mastery](https://github.com/adrianhajdin/project_news_alan_ai)
 
 ## Licence
 
