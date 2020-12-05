@@ -1,6 +1,8 @@
 # IntelliNews
 
-A fully automated voice-based single page web-application that delivers the latest news. The app is designed using react, and material-UI. The backend is integrated with Alan AI to provide voice-control functionality which enables it to respond to voice input from the user as well as have a casual conversation with the client.
+A fully automated voice-based solution that delivers the latest news. The app is designed using react, and material-UI. The backend is integrated with Alan AI to provide voice-control functionality which enables it to respond to voice input from the user as well as have a casual conversation with the client.
+
+[www.intellinews.in](https://intellinews.netlify.app/)
 
 ## Build Status
 
@@ -12,8 +14,10 @@ A fully automated voice-based single page web-application that delivers the late
 
 ## Screenshots
 
-![Screenshot 2020-12-04 115258](https://user-images.githubusercontent.com/56535991/101129787-48a07880-3628-11eb-9692-880ce6aaa0ba.png)
-![Screenshot 2020-12-04 115248](https://user-images.githubusercontent.com/56535991/101129815-56ee9480-3628-11eb-9d19-32ce3e7458b1.png)
+![Screenshot 2020-12-05 182228](https://user-images.githubusercontent.com/56535991/101243621-7e785680-3727-11eb-9907-377800244d79.png)
+![Screenshot 2020-12-05 182504](https://user-images.githubusercontent.com/56535991/101243632-8c2ddc00-3727-11eb-9c09-26b7203d22a8.png)
+![Screenshot 2020-12-05 182429](https://user-images.githubusercontent.com/56535991/101243640-994acb00-3727-11eb-984b-df303fcce8e4.png)
+
 
 ## Tech/Frameworks Used
 
