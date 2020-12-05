@@ -33,7 +33,7 @@ function App() {
             alanBtn().playText("Please try that again.");
           } else if (article) {
             window.open(article.url, "_blank");
-            alanBtn.playText("Opening...");
+            alanBtn().playText("Opening...");
           } else {
             return;
           }
