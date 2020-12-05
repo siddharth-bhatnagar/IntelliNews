@@ -15,9 +15,6 @@ A fully automated voice-based solution that delivers the latest news. The app is
 ## Screenshots
 
 ![image](https://user-images.githubusercontent.com/56535991/101243981-c13b2e00-3729-11eb-9e76-4dd87bc63178.png)
-![Screenshot 2020-12-05 182504](https://user-images.githubusercontent.com/56535991/101243632-8c2ddc00-3727-11eb-9c09-26b7203d22a8.png)
-![Screenshot 2020-12-05 182429](https://user-images.githubusercontent.com/56535991/101243640-994acb00-3727-11eb-984b-df303fcce8e4.png)
-
 
 ## Tech/Frameworks Used
 
