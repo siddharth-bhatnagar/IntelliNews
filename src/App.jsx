@@ -4,7 +4,7 @@ import NewsCards from "./components/NewsCards/NewsCards";
 import useStyles from "./styles.js";
 import wordsToNumbers from "words-to-numbers";
 
-const alanKey = "3edc9f86c01e5611933bf9b866bb3b1d2e956eca572e1d8b807a3e2338fdd0dc/prod";
+const alanKey = process.env.API_KEY;
 
 function App() {
   const classes = useStyles();
