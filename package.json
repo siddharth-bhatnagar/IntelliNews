@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.5.0",
     "classnames": "^2.2.6",
     "dotenv": "^8.2.0",
+    "netlify-cli": "^5.2.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
