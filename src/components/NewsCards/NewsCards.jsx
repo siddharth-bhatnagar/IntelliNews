@@ -10,7 +10,7 @@ const infoCards = [
     title: "News by Categories",
     info:
       "Business, Entertainment, General, Health, Science, Sports, Technology",
-    text: "Give me the latest Technology news",
+    text: "Give me the latest Health news",
   },
   {
     color: "#4527a0",
@@ -51,14 +51,14 @@ function NewsCards({ articles, activeArticle }) {
                 className={classes.card}
                 style={{ backgroundColor: infoCard.color }}
               >
-                <Typography variant="h5">{infoCard.title}</Typography>
+                <Typography variant="h6">{infoCard.title}</Typography>
                 {infoCard.info ? (
-                  <Typography variant="h6">
+                  <Typography variant="body1">
                     <strong>{infoCard.title.split(" ")[2]}</strong>
                     <br /> {infoCard.info}
                   </Typography>
                 ) : null}
-                <Typography variant="h6">
+                <Typography variant="body2">
                   Try saying: <br /> <em>{infoCard.text}</em>
                 </Typography>
               </div>

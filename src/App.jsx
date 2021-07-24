@@ -46,8 +46,9 @@ function App() {
     <div>
       <div className={classes.logoContainer}>
         <img
-          src="https://alan.app/voice/images/previews/preview.jpg"
-          alt="alan logo"
+          style={{borderRadius: "25%"}}
+          src="https://cji.com.hr/wp-content/uploads/2019/04/News-slika.png"
+          alt="News"
           className={classes.alanLogo}
         />
       </div>
